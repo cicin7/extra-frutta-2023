@@ -1,0 +1,452 @@
+
+.items-container {
+    background-color: #167906;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+  }
+
+@media (width < 1200px) {
+    .items-container {
+        padding-top: 0rem;
+      }
+  }
+
+.items-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 25px;
+    color: #333;
+    background: #fff;
+  }
+
+.items-lista {
+    font-family: 'Bebas Neue';
+    display: inline-block;
+    font-size: 5rem;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    align-self: center;
+    text-transform: uppercase;
+    color: #167906;
+    margin: 0 10px 75px 10px;
+  }
+  
+@media (width < 760px) {
+    .items-lista {
+      text-align: center;
+      font-size: 4rem;
+    }
+  }
+
+.items-back-arrow {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+.items-back-arrow-svg {
+    fill: #167906;
+  }
+
+.gornja-sekcija {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 0 4rem;
+    margin-bottom: 3rem;
+  }
+
+@media (width < 1024px) {
+    .gornja-sekcija {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 2rem;
+        margin: 0 0rem;
+        margin-bottom: 3rem;
+      }
+  }
+
+.items-images, .info {
+    flex: 1;
+    flex-basis: 0;
+  }
+
+@media (width < 1024px) {
+    .info {
+        text-align: center;
+      }
+  }
+
+.naslov-proizvoda {
+    color: #167906;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (width < 1024px) {
+    .naslov-proizvoda {
+        font-size: 1.5rem;
+    }
+  }
+
+@media (width < 760px) {
+    .naslov-proizvoda {
+        font-size: 1.125rem;
+    }
+  }
+
+.cijena-proizvoda {
+    color: #333;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (width < 760px) {
+    .cijena-proizvoda {
+        font-size: 1.125rem;
+    }
+  }
+
+.euro {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: red;
+}
+
+.kuna {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.opis-proizvoda {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+@media (width < 1024px) {
+    .opis-proizvoda {
+        font-size: 1.125rem;
+    }
+  }
+
+.znacajke {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+@media (width < 1024px) {
+    .znacajke {
+        font-size: 1rem;
+    }
+  }
+
+.znacajke li {
+    list-style-type: circle;
+    margin-left: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+@media (width < 1024px) {
+    .znacajke li {
+        text-align: left;
+      }
+  }
+
+.items-images {
+    max-width: 400px;
+}
+
+.slika-proizvoda {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+dialog {
+    width: 400px;
+  }
+  
+dialog[open] {
+    display: block;
+  }
+
+.paragraph {
+    margin: 0 6rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+@media (width < 1024px) {
+    .paragraph {
+        font-size: 1.125rem;
+        margin: 0 3rem;
+    }
+  }
+
+@media (width < 760px) {
+    .paragraph {
+        font-size: 1rem;
+        margin: 0 0rem;
+        margin-bottom: 1rem;
+    }
+  }
+
+.znacajke-u-textu {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+@media (width < 1024px) {
+    .znacajke-u-textu {
+        font-size: 1.125rem;
+    }
+  }
+
+@media (width < 760px) {
+    .znacajke-u-textu {
+        font-size: 1rem;
+    }
+  }
+
+.znacajke-u-textu li {
+    list-style-type: circle;
+    margin: 0 6rem 0 8rem;
+    margin-bottom: 0.2rem;
+}
+
+@media (width < 1024px) {
+    .znacajke-u-textu li {
+        margin: 0.5rem 5rem;
+    }
+  }
+
+@media (width < 760px) {
+    .znacajke-u-textu li {
+        margin: 0.5rem 2rem;
+    }
+  }
+
+.znacajke-u-textu-bez-dekoracije {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+@media (width < 1024px) {
+    .znacajke-u-textu-bez-dekoracije {
+        font-size: 1.125rem;
+    }
+  }
+
+@media (width < 760px) {
+    .znacajke-u-textu-bez-dekoracije {
+        font-size: 1rem;
+    }
+  }
+
+.znacajke-u-textu-bez-dekoracije li {
+    margin: 0 6rem 0 8rem;
+    margin-bottom: 0.2rem;
+}
+
+@media (width < 1024px) {
+    .znacajke-u-textu-bez-dekoracije li {
+        margin: 0.5rem 4rem;
+    }
+  }
+
+@media (width < 760px) {
+    .znacajke-u-textu-bez-dekoracije li {
+        margin: 0.5rem 1rem;
+    }
+  }
+
+.items-images-in-text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.center-text {
+    text-align: center;
+    margin: 2rem 0px;
+}
+
+.iframe-wrapper {
+    align-self: center;
+    position: relative;
+    width: 80%;
+    margin-bottom: 2rem;
+    padding-bottom: 46.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+}
+
+@media (width < 760px) {
+    .iframe-wrapper {
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+    }
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#open, #close {
+    border: none;
+    padding: 0.5em 1em;
+    background: #167906;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0.625rem;
+    margin-top: 1rem;
+}
+
+@media (width < 1024px) {
+    #open, #close {
+        font-size: 1.125rem;
+    }
+  }
+
+#open:hover, #close:hover {
+    cursor: pointer;
+    background: #167906;
+    opacity: 0.9;
+}
+
+#dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    width: 60%;
+    height: min-content;
+    border-radius: 0.625em;
+}
+
+@media (width < 1024px) {
+  #dialog {
+    width: 90%;
+}
+}
+
+#dialog::backdrop {
+    background: #167906;
+    opacity: 0.6;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em 2em;
+    gap: 1rem;
+}
+
+.modal p {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.kuvings-benefits-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0 6rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+@media (width < 760px) {
+  .kuvings-benefits-wrap {
+    flex-direction: column;
+    margin: 0 0rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.kuvings-benefits-wrap img {
+  max-width: 200px;
+  height: 100%;
+  display: block;
+}
+
+@media (width < 760px) {
+  .kuvings-benefits-wrap img {
+    max-width: 100px;
+    height: 100%;
+    display: block;
+  }
+}
+
+
+.kuvings-subtitle-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.kuvings-subtitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+@media (width < 760px) {
+  .kuvings-subtitle {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+.kuvings-desc {
+  font-size: 1.2rem;
+} 
+
+@media (width < 760px) {
+  .kuvings-desc {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+.parts-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+@media (width < 760px) {
+  .parts-title {
+    font-size: 1.2rem;
+  }
+}
+
+.margin {
+  margin: 0rem 7rem;
+  margin-bottom: 2rem;
+}
+
+@media (width < 760px) {
+  .margin {
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+}
