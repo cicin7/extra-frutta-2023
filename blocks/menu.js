@@ -26,7 +26,7 @@ class menu extends HTMLElement {
       </div>
 
       <!----- nav mob -----> 
-      <div class="logomob"><img src="./img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></div>
+      <div class="logomob"><img src="../../img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></div>
       <div class="mobnav">
         <div class="barholder" id="mobtoggle">
           <div class="bar1"></div>
