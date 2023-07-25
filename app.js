@@ -41,44 +41,6 @@ closeButton.addEventListener("click", () => {
 });
 
 
-// brojači
-let speed = 10;
-
-/* Call this function with a string containing the ID name to
-* the element containing the number you want to do a count animation on.*/
-function incEltNbr(id) {
-elt = document.getElementById(id);
-endNbr = Number(document.getElementById(id).innerHTML);
-incNbrRec(0, endNbr, elt);
-}
-
-/*A recursive function to increase the number.*/
-function incNbrRec(i, endNbr, elt) {
-if (i <= endNbr) {
-  elt.innerHTML = i;
-  setTimeout(function() {//Delay a bit before calling the function again.
-    incNbrRec(i + 1, endNbr, elt);
-  }, speed);
-}
-}
-
-const observer = new IntersectionObserver(entries => {
-entries.forEach(entry => {
-  if (entry.isIntersecting) {
-    incEltNbr("nbr");
-    incEltNbr("nbrr");
-    observer.unobserve(entry.target); // stop observing once animation starts
-  }
-});
-});
-
-const uspjehSection = document.querySelector('.uspjeh-section');
-observer.observe(uspjehSection);
-
-incEltNbr("nbr"); /*Call this funtion with the ID-name for that element to increase the number within*/
-incEltNbr("nbrr");
-
-
 // current year
   const currentYear = new Date().getFullYear();
   document.getElementById("current-year").textContent = currentYear;
