@@ -42,7 +42,7 @@ class footer extends HTMLElement {
                         <h3 class="kontakt-head">
                           Naš partner
                         </h3>
-                        <img src="../../img/vervita-logo.webp" alt="Vervita logo/logotip">
+                        <img src="https://cicin7.github.io/extra-frutta-2023/img/vervita-logo.webp" alt="Vervita logo/logotip">
                     </div>
 
                 </div>
