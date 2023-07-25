@@ -29,10 +29,7 @@ class footer extends HTMLElement {
                           Korisni linkovi:
                       </h3>
                       <p class="kontakt-broj">
-                        Izjava o konverziji valute
-                      </p>
-                      <p class="kontakt-broj">
-                        Uvjeti korištenja
+                        <a href="${baseURL}/uvjeti-koristenja.html">Uvjeti korištenja</a>
                       </p>
                       <p class="kontakt-broj">
                         Linkovi
