@@ -7,7 +7,7 @@ class menu extends HTMLElement {
 
       <!----- nav desk -----> 
       <div class="deskmenu">
-        <div class="logo"><img src="../img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></div>
+        <div class="logo"><img src="https://cicin7.github.io/extra-frutta-2023/img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></div>
         <ul class="deskwrap">
           <li class="deskitem"> <a style="color:#0F5530;" href="./index.html"> Početna </a> </li>
           <li class="menuicon menuicon-1"></li>
