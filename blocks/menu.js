@@ -9,7 +9,7 @@ class menu extends HTMLElement {
 
       <!----- nav desk -----> 
       <div class="deskmenu">
-        <div class="logo"><img src="${baseURL}/img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></div>
+        <a href="${baseURL}" class="logo"><img src="${baseURL}/img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></a>
         <ul class="deskwrap">
           <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}"> Početna </a> </li>
           <li class="menuicon menuicon-1"></li>
