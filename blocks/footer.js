@@ -32,7 +32,7 @@ class footer extends HTMLElement {
                         <a href="${baseURL}/uvjeti-koristenja.html">Uvjeti korištenja</a>
                       </p>
                       <p class="kontakt-broj">
-                        Linkovi
+                      <a href="${baseURL}/linkovi.html">Linkovi</a>
                       </p>
                     </div>
                     <div class="footer-linkovi">

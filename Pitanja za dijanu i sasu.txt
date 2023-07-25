@@ -5,3 +5,5 @@ Pitanja za dijanu i sasu:
 - rezervni dijelovi
 
 - broj zadovoljnih klijenata i broj vrsta voća i povrća
+
+- dodatne stranice radi pravne sigurnosti
