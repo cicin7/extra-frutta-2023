@@ -13,9 +13,9 @@ class menu extends HTMLElement {
         <ul class="deskwrap">
           <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}"> Početna </a> </li>
           <li class="menuicon menuicon-1"></li>
-          <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#lista"> Lista proizvoda </a> </li>
-          <li class="menuicon menuicon-2"></li>
           <li class="deskitem" id="listadesk"> <a style="color:#0F5530;" href="${baseURL}#tablica"> Voće i Povrće </a> </li>
+          <li class="menuicon menuicon-2"></li>
+          <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#lista"> Lista proizvoda </a> </li>
           <!-- 
           <li class="menuicon menuicon-3"></li>
           <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#kako"> Kako naručiti </a> </li>
@@ -42,9 +42,9 @@ class menu extends HTMLElement {
         <ul class="mobwrap">
           <li class="mobitem"> <a style="color:#fff;" href="${baseURL}"> Početna </a> </li>
           <li class="menuicon menuicon-1"></li>
-          <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#lista"> Lista proizvoda </a> </li>
-          <li class="menuicon menuicon-2"></li>
           <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#tablica"> Voće i Povrće </a> </li>
+          <li class="menuicon menuicon-2"></li>
+          <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#lista"> Lista proizvoda </a> </li>
           <!-- 
           <li class="menuicon menuicon-3"></li>
           <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#kako"> Kako naručiti </a> </li>
