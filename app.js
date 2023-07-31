@@ -3,6 +3,7 @@
 //- navigacija scroll desk i mob homepage -//
 //-----------------------------------------//
 let listadesk = document.getElementById('listadesk');
+let lista = document.getElementById('lista');
 
 listadesk.addEventListener('click', scrollToLista);
 
