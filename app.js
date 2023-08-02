@@ -1,11 +1,10 @@
-
 //-----------------------------------------//
 //- navigacija scroll desk i mob homepage -//
 //-----------------------------------------//
 
 let menuBlock = document.querySelector('menu-block');
 let listadesk = menuBlock.querySelector('#listadesk');
-let lista = document.getElementById('lista');
+let lista = document.querySelector('#lista');
 
 // Add the event listener to the listadesk element
 listadesk.addEventListener('click', scrollToLista);
@@ -16,7 +15,6 @@ function scrollToLista(){
   });
 }
 
-
 //---------------------------------------//
 //---------------- mobmenu --------------//
 //---------------------------------------//
@@ -26,22 +24,6 @@ var mobmenu = document.getElementById('mobmenu');
 mobtoggle.addEventListener('click', function(e){
   mobmenu.classList.toggle('toggle');
   mobtoggle.classList.toggle('change');
-});
-
-
-//---------------------------------------//
-//---------------- modal ----------------//
-//---------------------------------------//
-const openButton = document.querySelector("#open");
-const closeButton = document.querySelector("#close");
-const modal = document.querySelector("#dialog");
-
-openButton.addEventListener("click", () => {
-  modal.showModal();
-});
-
-closeButton.addEventListener("click", () => {
-  modal.close();
 });
 
 
