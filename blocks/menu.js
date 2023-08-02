@@ -1,4 +1,4 @@
-const baseURL = 'https://cicin7.github.io/extra-frutta-2023';
+const baseURL = 'https://extrafrutta.hr';
 
 class menu extends HTMLElement {
   constructor() {
@@ -28,7 +28,7 @@ class menu extends HTMLElement {
       </div>
 
       <!----- nav mob -----> 
-      <div class="logomob"><img src="${baseURL}/img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></div>
+      <div class="logomob"><a href="${baseURL}" class="logo"><img src="${baseURL}/img/extra-frutta-logo-transparent.png" alt="Extra Frutta logotip"></a></div>
       <div class="mobnav">
         <div class="barholder" id="mobtoggle">
           <div class="bar1"></div>

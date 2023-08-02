@@ -2,9 +2,12 @@
 //-----------------------------------------//
 //- navigacija scroll desk i mob homepage -//
 //-----------------------------------------//
-let listadesk = document.getElementById('listadesk');
+
+let menuBlock = document.querySelector('menu-block');
+let listadesk = menuBlock.querySelector('#listadesk');
 let lista = document.getElementById('lista');
 
+// Add the event listener to the listadesk element
 listadesk.addEventListener('click', scrollToLista);
 
 function scrollToLista(){
