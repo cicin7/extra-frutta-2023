@@ -9,21 +9,24 @@ class footer extends HTMLElement {
                 <div class="footer-wrapper">
 
                     <div class="footer-linkovi">
-                        <h3 class="kontakt-head">
-                          Radno vrijeme:
-                        </h3>
-                        <p class="kontakt-broj">Ponedjeljak - Petak:<b>&nbsp;6:00 - 14:00</b></p>
-                        <p class="kontakt-broj">Subota:<b>&nbsp;6:00 - 12:00</b></p>
-                        <p class="kontakt-broj">Nedjelja:<b>&nbsp;ne radimo</b></p> 
+                    <h3 class="kontakt-head">
+                      Informacije o obrtu:
+                    </h3>
+                        <p class="kontakt-broj">Extra frutta, obrt za trgovinu,  vl.Saša Dunđer </p>
+                        <p class="kontakt-broj">Milovana Gavazzija 2 </p>
+                        <p class="kontakt-broj">10040 Zagreb </p>
+                        <p class="kontakt-broj">OIB: 64302093983 </p>
                     </div>
+
                     <div class="footer-linkovi">
-                        <h3 class="kontakt-head">
-                            Lokacija:
-                        </h3>
-                        <p class="kontakt-broj">
-                          Milovana Gavazzija 2, 10040, Zagreb
-                        </p>
+                      <h3 class="kontakt-head">
+                        Radno vrijeme:
+                      </h3>
+                      <p class="kontakt-broj">Ponedjeljak - Petak:<b>&nbsp;6:00 - 14:00</b></p>
+                      <p class="kontakt-broj">Subota:<b>&nbsp;6:00 - 12:00</b></p>
+                      <p class="kontakt-broj">Nedjelja:<b>&nbsp;ne radimo</b></p> 
                     </div>
+
                     <div class="footer-linkovi">
                       <h3 class="kontakt-head">
                           Korisni linkovi:
@@ -38,11 +41,12 @@ class footer extends HTMLElement {
                       <a href="${baseURL}/linkovi.html">Linkovi</a>
                       </p>
                     </div>
+
                     <div class="footer-linkovi">
                         <h3 class="kontakt-head">
                           Naš partner
                         </h3>
-                        <img src="${baseURL}/img/vervita-logo.webp" alt="Vervita logo/logotip">
+                        <a href="https://vervita.com/" target="_blank"><img src="${baseURL}/img/vervita-logo.webp" alt="Vervita logo/logotip"></a>
                     </div>
 
                 </div>
@@ -50,7 +54,7 @@ class footer extends HTMLElement {
 
             <div class="copyright">
                 <div class="bottom-links">
-                    © Extra Frutta 2023<span id="current-year"></span>. Sva prava pridržana
+                    © Extra Frutta <span id="current-year"></span>. Sva prava pridržana
                 </div>
             </div>
 

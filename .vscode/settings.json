@@ -7,5 +7,6 @@
     "position": "center", // alias to `background-position`, default `center`
     "interval": 0 // seconds of interval for carousel, default `0` to disabled.
   },
-  "cmake.configureOnOpen": false
+  "cmake.configureOnOpen": false,
+  "liveServer.settings.port": 5501
 }

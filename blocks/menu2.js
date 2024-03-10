@@ -1,6 +1,6 @@
 const baseURL = 'https://extrafrutta.hr';
 
-class menu extends HTMLElement {
+class menu2 extends HTMLElement {
   constructor() {
     super();
     
@@ -13,17 +13,17 @@ class menu extends HTMLElement {
         <ul class="deskwrap">
           <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}"> Početna </a> </li>
           <li class="menuicon menuicon-1"></li>
-          <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#tablica"> Voće i Povrće </a> </li>
+          <li class="deskitem" id="vocedesk"> Voće i Povrće </li>
           <li class="menuicon menuicon-2"></li>
-          <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#lista"> Lista proizvoda </a> </li>
+          <li class="deskitem" id="listadesk"> Lista proizvoda </li>
           <!-- 
           <li class="menuicon menuicon-3"></li>
-          <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#kako"> Kako naručiti </a> </li>
+          <li class="deskitem"> Kako naručiti </li>
           -->
           <li class="menuicon menuicon-4"></li>
           <li class="deskitem" id="kontaktdesk"> Kontakt </li>
           <li class="menuicon menuicon-5"></li>
-          <li class="deskitem"> <a style="color:#0F5530;" href="${baseURL}#onama"> O nama </a> </li>
+          <li class="deskitem" id="onamadesk"> O nama </li>
         </ul>
       </div>
 
@@ -42,17 +42,17 @@ class menu extends HTMLElement {
         <ul class="mobwrap">
           <li class="mobitem"> <a style="color:#fff;" href="${baseURL}"> Početna </a> </li>
           <li class="menuicon menuicon-1"></li>
-          <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#tablica"> Voće i Povrće </a> </li>
+          <li class="mobitem" id="vocemob"> Voće i Povrće </li>
           <li class="menuicon menuicon-2"></li>
-          <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#lista"> Lista proizvoda </a> </li>
+          <li class="mobitem" id="listamob"> Lista proizvoda </li>
           <!-- 
           <li class="menuicon menuicon-3"></li>
-          <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#kako"> Kako naručiti </a> </li>
+          <li class="mobitem"> Kako naručiti </li>
           -->
           <li class="menuicon menuicon-4"></li>
           <li class="mobitem" id="kontaktmob"> Kontakt </li>
           <li class="menuicon menuicon-5"></li>
-          <li class="mobitem"> <a style="color:#fff;" href="${baseURL}#onama"> O nama </a> </li>
+          <li class="mobitem" id="onamamob"> O nama </li>
         </ul>
       </div>
 
@@ -61,5 +61,5 @@ class menu extends HTMLElement {
   }
 }
 
-customElements.define('menu-block', menu);
+customElements.define('menu2-block', menu2);
 

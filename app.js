@@ -1,30 +1,32 @@
-//-----------------------------------------//
-//- navigacija scroll desk i mob homepage -//
-//-----------------------------------------//
-
-let menuBlock = document.querySelector('menu-block');
-let listadesk = menuBlock.querySelector('#listadesk');
-let lista = document.querySelector('#lista');
-
-// Add the event listener to the listadesk element
-listadesk.addEventListener('click', scrollToLista);
-
-function scrollToLista(){
-  lista.scrollIntoView({
-      behavior: 'smooth'
-  });
-}
-
 //---------------------------------------//
 //---------------- mobmenu --------------//
 //---------------------------------------//
-var mobtoggle = document.getElementById('mobtoggle');
-var mobmenu = document.getElementById('mobmenu');
+let mobtoggle = document.getElementById('mobtoggle');
+let mobmenu = document.getElementById('mobmenu');
 
 mobtoggle.addEventListener('click', function(e){
   mobmenu.classList.toggle('toggle');
   mobtoggle.classList.toggle('change');
 });
+
+
+// scroll do kontakta
+let kontaktdesk = document.getElementById('kontaktdesk');
+let kontaktmob = document.getElementById('kontaktmob');
+let kako = document.getElementById('kako');
+
+function scrollToKontakt(){
+  if(mobmenu.classList.contains('toggle')){
+      mobmenu.classList.remove('toggle');
+      mobtoggle.classList.remove('change');
+  }
+  kako.scrollIntoView({
+      behavior: 'smooth'
+  });
+}
+
+kontaktmob.addEventListener('click', scrollToKontakt)
+kontaktdesk.addEventListener('click', scrollToKontakt)
 
 
 // current year
