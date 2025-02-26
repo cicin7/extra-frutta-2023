@@ -1,139 +1,181 @@
-
 <!DOCTYPE html>
 <html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../../proizvodi.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../proizvodi.css" />
     <title>Sedona Supreme</title>
-</head>
-<body>
-    
-<!----- navigation desk mob ----->      
+  </head>
+  <body>
+    <!----- navigation desk mob ----->
     <menu-block></menu-block>
 
-    
-<!----- kategorija ----->
-<div class="items-container">
+    <!----- kategorija ----->
+    <div class="items-container">
+      <section class="items-main">
+        <a href="../../proizvodi/dehidratori.html" class="items-back-arrow">
+          <svg
+            class="items-back-arrow-svg"
+            baseProfile="tiny"
+            height="60px"
+            id="Layer_1"
+            version="1.2"
+            viewBox="0 0 24 24"
+            width="60px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M12,9.059V6.5c0-0.256-0.098-0.512-0.293-0.708C11.512,5.597,11.256,5.5,11,5.5s-0.512,0.097-0.707,0.292L4,12l6.293,6.207  C10.488,18.402,10.744,18.5,11,18.5s0.512-0.098,0.707-0.293S12,17.755,12,17.5v-2.489c2.75,0.068,5.755,0.566,8,3.989v-1  C20,13.367,16.5,9.557,12,9.059z"
+            />
+          </svg>
+        </a>
 
-     <section class="items-main">
-       
-       <a href="../../proizvodi/dehidratori.html" class="items-back-arrow">
-         <svg class="items-back-arrow-svg" baseProfile="tiny" height="60px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="60px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12,9.059V6.5c0-0.256-0.098-0.512-0.293-0.708C11.512,5.597,11.256,5.5,11,5.5s-0.512,0.097-0.707,0.292L4,12l6.293,6.207  C10.488,18.402,10.744,18.5,11,18.5s0.512-0.098,0.707-0.293S12,17.755,12,17.5v-2.489c2.75,0.068,5.755,0.566,8,3.989v-1  C20,13.367,16.5,9.557,12,9.059z"/></svg>
-       </a>
+        <div class="gornja-sekcija">
+          <div class="items-images">
+            <img
+              class="slika-proizvoda"
+              src="../../img/dehidratori/sedona-supreme/sedona-supreme-1.webp"
+              alt="sedona-supreme"
+            />
+          </div>
 
-       <div class="gornja-sekcija">
+          <div class="info">
+            <h2 class="naslov-proizvoda">Sedona Supreme</h2>
+            <p class="cijena-proizvoda">
+              <span class="kuna"> Cijena na upit </span>
+            </p>
 
-        <div class="items-images">
-          <img class="slika-proizvoda" src="../../img/dehidratori/sedona-supreme/sedona-supreme-1.webp" alt="sedona-supreme">
+            <button id="open">Specifikacije</button>
+
+            <dialog id="dialog">
+              <div class="modal">
+                <h2>Specifikacije:</h2>
+                <p><b>Model</b> SDC-S101-B</p>
+                <p><b>Težina:</b> 8,7kg</p>
+                <p><b>Dimenzije dehidratora:</b> š432 x d503 x v363 (mm)</p>
+                <p><b>Dimenzije polica:</b> š387 x d330 (mm)</p>
+                <p><b>Snaga grijača:</b> 570W</p>
+                <p><b>Raspon temperature:</b> 30-68oC</p>
+                <p><b>Proizvedeno u:</b> Južna Koreja</p>
+                <button id="close">Zatvori</button>
+              </div>
+            </dialog>
+          </div>
         </div>
-
-        <div class="info">
-          <h2 class="naslov-proizvoda">
-            Sedona Supreme
-          </h2>
-          <p class="cijena-proizvoda">
-            <span class="euro">
-                710,00 €
-            </span>
-            <span class="kuna">
-                5349,50 KN
-            </span>
-          </p>
-
-          <button id="open">
-            Specifikacije
-          </button>
-
-          <dialog id="dialog">
-            <div class="modal">
-              <h2>Specifikacije:</h2>
-              <p><b>Model</b> SDC-S101-B</p>
-              <p><b>Težina:</b> 8,7kg</p>
-              <p><b>Dimenzije dehidratora:</b> š432 x d503 x v363 (mm)</p>
-              <p><b>Dimenzije polica:</b> š387 x d330 (mm)</p>
-              <p><b>Snaga grijača:</b> 570W</p>
-              <p><b>Raspon temperature:</b> 30-68oC</p>
-              <p><b>Proizvedeno u:</b> Južna Koreja</p>
-              <button id="close">Zatvori</button>
-            </div>
-          </dialog>
-
-        </div>
-        
-
-       </div>
 
         <!-- paragraph -->
-       <p class="paragraph">
-        Sedona® Supreme komercijalni dehidrator s 9 polica od nehrđajućeg čelika i perivim filterom zraka. Koristite svih 9 polica i napredni TST timer za najbolje rezultate dehidriranja. Od voća, povrća, gljiva do mesa i krekera, snažni centralni ventilator pruža ravnomjerno i brzo sušenje.
-        <br><br>
-        <b>Dvostupanjski sekvencijalni temperaturni timer TST</b> <br>
-        TST tehnologija (Two-Stage Sequential Temperature-Timer) je apsolutno revolucionarna. Omogućuje Vam još više kontrole uz tih način rada. TST funkcionira tako da na početku proces dehidriranja u Sedoni Supreme započne s višom temperaturom, a kasnije ju sustav sam automatski spušta. Tim sustavom se omogućava brže dehidriranje kako bi se što više sačuvali dragocjeni enzimi. S obzirom da određeno voće i povrće u sebi sadrži veći udio vode, potrebna mu je inicijalna viša temperatura kako bi se spriječila fermentacija. Radi tog većeg udjela vode, unutarnja temperatura voća i povrća raste vrlo sporo. Početna viša temperatura prvih par sati u Sedoni Supreme neće degradirati dragocijene nutrijente, već samo pomoći raznovrsnom voću i povrću što brže, bolje i kvalitetnije dehidriranje. Prije je bilo potrebno ručno promijeniti temperaturu, ali sad TST to radi za nas.
-        </p>
-
-        <!-- slika -->
-        <div class="items-images-in-text">
-            <img src="../../img/dehidratori/sedona-supreme/sedona-supreme-7.webp" alt="sedona-supreme">
-        </div>
-  
         <p class="paragraph">
-            <b>Digitalne kontrole i display</b> <br>
-            Jednostavne kontrole temperature i vremena s prednje strane dehidratora. LED display je idealan za mračne prostorije.
+          Sedona® Supreme komercijalni dehidrator s 9 polica od nehrđajućeg
+          čelika i perivim filterom zraka. Koristite svih 9 polica i napredni
+          TST timer za najbolje rezultate dehidriranja. Od voća, povrća, gljiva
+          do mesa i krekera, snažni centralni ventilator pruža ravnomjerno i
+          brzo sušenje.
+          <br /><br />
+          <b>Dvostupanjski sekvencijalni temperaturni timer TST</b> <br />
+          TST tehnologija (Two-Stage Sequential Temperature-Timer) je apsolutno
+          revolucionarna. Omogućuje Vam još više kontrole uz tih način rada. TST
+          funkcionira tako da na početku proces dehidriranja u Sedoni Supreme
+          započne s višom temperaturom, a kasnije ju sustav sam automatski
+          spušta. Tim sustavom se omogućava brže dehidriranje kako bi se što
+          više sačuvali dragocjeni enzimi. S obzirom da određeno voće i povrće u
+          sebi sadrži veći udio vode, potrebna mu je inicijalna viša temperatura
+          kako bi se spriječila fermentacija. Radi tog većeg udjela vode,
+          unutarnja temperatura voća i povrća raste vrlo sporo. Početna viša
+          temperatura prvih par sati u Sedoni Supreme neće degradirati
+          dragocijene nutrijente, već samo pomoći raznovrsnom voću i povrću što
+          brže, bolje i kvalitetnije dehidriranje. Prije je bilo potrebno ručno
+          promijeniti temperaturu, ali sad TST to radi za nas.
         </p>
-    
+
         <!-- slika -->
         <div class="items-images-in-text">
-            <img src="../../img/dehidratori/sedona-supreme/sedona-supreme-8.webp" alt="sedona-supreme">
+          <img
+            src="../../img/dehidratori/sedona-supreme/sedona-supreme-7.webp"
+            alt="sedona-supreme"
+          />
         </div>
 
         <p class="paragraph">
-            <b>Snažni centralni ventilator i filter zraka</b> <br>
-            Sedona Supreme omogućava tihi rad, energetsku učinkovitost i ravnomjeran protok zraka unutar cijele komore za sušenje. Filter zraka se može skinuti, oprati, te ponovno koristiti.
+          <b>Digitalne kontrole i display</b> <br />
+          Jednostavne kontrole temperature i vremena s prednje strane
+          dehidratora. LED display je idealan za mračne prostorije.
         </p>
 
         <!-- slika -->
         <div class="items-images-in-text">
-            <img src="../../img/dehidratori/sedona-supreme/sedona-supreme-9.webp" alt="sedona-supreme">
+          <img
+            src="../../img/dehidratori/sedona-supreme/sedona-supreme-8.webp"
+            alt="sedona-supreme"
+          />
+        </div>
+
+        <p class="paragraph">
+          <b>Snažni centralni ventilator i filter zraka</b> <br />
+          Sedona Supreme omogućava tihi rad, energetsku učinkovitost i
+          ravnomjeran protok zraka unutar cijele komore za sušenje. Filter zraka
+          se može skinuti, oprati, te ponovno koristiti.
+        </p>
+
+        <!-- slika -->
+        <div class="items-images-in-text">
+          <img
+            src="../../img/dehidratori/sedona-supreme/sedona-supreme-9.webp"
+            alt="sedona-supreme"
+          />
         </div>
 
         <!-- video -->
         <div class="iframe-wrapper">
-            <iframe class="video" src="https://www.youtube.com/embed/YnoqT9HWrbY"></iframe>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/YnoqT9HWrbY"
+          ></iframe>
         </div>
 
-        <h2 class="paragraph" style="text-align: left;">
-            <b>ZNAČAJKE:</b>
-        </h2> 
-  
+        <h2 class="paragraph" style="text-align: left">
+          <b>ZNAČAJKE:</b>
+        </h2>
+
         <ul class="znacajke-u-textu">
-            <li>Postavke temperature <b>od 30 - 68°C</b></li>
-            <li>Automatsko isključivanje</li>
-            <li>Komercijalno certificiran prema NSF i UL standardima</li>
-            <li><b>9 rupičastih polica od nehrđajućeg čelika</b></li>
-            <li><b>1 puna plasična BPA free polica</b> za skupljanje mrvica i ostataka tijekom dehidriranja</li>
-            <li><b>Zaštita od pregrijavanja</b> - sprečava degradaciju enzima jer omogućava da postavite maksimalnu temperaturu dehidriranja umijesto prosječne</li>
-            <li><b>Kontinuirani način rada</b> - omogućava neprekidno dehidriranje do 99 sati</li>
-            <li><b>Staklena vrata i unutarnje LED svijetlo</b> - prozirna vrata i LED svijetlo omogućavaju jednostavan nadzor procesa sušenja. Kada otvorite vrata tijekom rada, dehidriranje se pauzira.</li>
-        </ul>        
+          <li>Postavke temperature <b>od 30 - 68°C</b></li>
+          <li>Automatsko isključivanje</li>
+          <li>Komercijalno certificiran prema NSF i UL standardima</li>
+          <li><b>9 rupičastih polica od nehrđajućeg čelika</b></li>
+          <li>
+            <b>1 puna plasična BPA free polica</b> za skupljanje mrvica i
+            ostataka tijekom dehidriranja
+          </li>
+          <li>
+            <b>Zaštita od pregrijavanja</b> - sprečava degradaciju enzima jer
+            omogućava da postavite maksimalnu temperaturu dehidriranja umijesto
+            prosječne
+          </li>
+          <li>
+            <b>Kontinuirani način rada</b> - omogućava neprekidno dehidriranje
+            do 99 sati
+          </li>
+          <li>
+            <b>Staklena vrata i unutarnje LED svijetlo</b> - prozirna vrata i
+            LED svijetlo omogućavaju jednostavan nadzor procesa sušenja. Kada
+            otvorite vrata tijekom rada, dehidriranje se pauzira.
+          </li>
+        </ul>
+      </section>
+    </div>
 
-     </section>
- 
-</div>
-
-<!----- kako naručiti ----->
+    <!----- kako naručiti ----->
     <kako-naruciti></kako-naruciti>
 
-<!----- footer ----->
+    <!----- footer ----->
     <footer-block></footer-block>
 
-         <script defer src="../../blocks/menu.js"></script>
-         <script defer src="../../blocks/kako-naruciti.js"></script>
-         <script defer src="../../blocks/footer.js"></script>
-         <script defer src="../../app.js"></script>
-         <script defer src="../../modal.js"></script>
-         
-
-</body>
+    <script defer src="../../blocks/menu.js"></script>
+    <script defer src="../../blocks/kako-naruciti.js"></script>
+    <script defer src="../../blocks/footer.js"></script>
+    <script defer src="../../app.js"></script>
+    <script defer src="../../modal.js"></script>
+  </body>
 </html>

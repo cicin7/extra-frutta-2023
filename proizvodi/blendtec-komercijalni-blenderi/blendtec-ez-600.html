@@ -1,112 +1,134 @@
 <!DOCTYPE html>
 <html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../../proizvodi.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../proizvodi.css" />
     <title>Blendtec EZ 600</title>
-</head>
-<body>
-    
-<!----- navigation desk mob ----->      
-<menu-block></menu-block>
+  </head>
+  <body>
+    <!----- navigation desk mob ----->
+    <menu-block></menu-block>
 
-    
-<!----- kategorija ----->
-<div class="items-container">
+    <!----- kategorija ----->
+    <div class="items-container">
+      <section class="items-main">
+        <a
+          href="../../proizvodi/blendtec-komercijalni-blenderi.html"
+          class="items-back-arrow"
+        >
+          <svg
+            class="items-back-arrow-svg"
+            baseProfile="tiny"
+            height="60px"
+            id="Layer_1"
+            version="1.2"
+            viewBox="0 0 24 24"
+            width="60px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M12,9.059V6.5c0-0.256-0.098-0.512-0.293-0.708C11.512,5.597,11.256,5.5,11,5.5s-0.512,0.097-0.707,0.292L4,12l6.293,6.207  C10.488,18.402,10.744,18.5,11,18.5s0.512-0.098,0.707-0.293S12,17.755,12,17.5v-2.489c2.75,0.068,5.755,0.566,8,3.989v-1  C20,13.367,16.5,9.557,12,9.059z"
+            />
+          </svg>
+        </a>
 
-     <section class="items-main">
-       
-       <a href="../../proizvodi/blendtec-komercijalni-blenderi.html" class="items-back-arrow">
-         <svg class="items-back-arrow-svg" baseProfile="tiny" height="60px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="60px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12,9.059V6.5c0-0.256-0.098-0.512-0.293-0.708C11.512,5.597,11.256,5.5,11,5.5s-0.512,0.097-0.707,0.292L4,12l6.293,6.207  C10.488,18.402,10.744,18.5,11,18.5s0.512-0.098,0.707-0.293S12,17.755,12,17.5v-2.489c2.75,0.068,5.755,0.566,8,3.989v-1  C20,13.367,16.5,9.557,12,9.059z"/></svg>
-       </a>
+        <div class="gornja-sekcija">
+          <div class="items-images">
+            <img
+              class="slika-proizvoda"
+              src="../../img/blendtec-komercijalni-blenderi/blendtec-ez-600/blendtec-ez-600-1.webp"
+              alt="blender-blendtec-professional-800"
+            />
+          </div>
 
-       <div class="gornja-sekcija">
+          <div class="info">
+            <h2 class="naslov-proizvoda">Blendtec EZ 600</h2>
+            <p class="cijena-proizvoda">
+              <span class="kuna"> Cijena na upit </span>
+            </p>
 
-        <div class="items-images">
-          <img class="slika-proizvoda" src="../../img/blendtec-komercijalni-blenderi/blendtec-ez-600/blendtec-ez-600-1.webp" alt="blender-blendtec-professional-800">
+            <button id="open">Specifikacije</button>
+
+            <dialog id="dialog">
+              <div class="modal">
+                <h2>Specifikacije:</h2>
+                <p><b>Snaga Motora:</b> 1560W</p>
+                <p><b>Dimenzije:</b> 17.7 x 20.3 x 38.1 cm (Š x D x V)</p>
+                <p><b>Težina:</b> 3,2kg</p>
+                <p>
+                  <b>Garancija:</b> 3 godine na bazu s motorom i upravljačku
+                  elektroniku, 6 mjeseci na posudu
+                </p>
+                <button id="close">Zatvori</button>
+              </div>
+            </dialog>
+          </div>
         </div>
 
-        <div class="info">
-          <h2 class="naslov-proizvoda">
-            Blendtec EZ 600
-          </h2>
-          <p class="cijena-proizvoda">
-            <span class="euro">
-                630,00  €
-            </span>
-            <span class="kuna">
-                4746,74 KN
-            </span>
-          </p>
-
-          <button id="open">
-            Specifikacije
-          </button>
-
-          <dialog id="dialog">
-            <div class="modal">
-              <h2>Specifikacije:</h2>
-              <p><b>Snaga Motora:</b> 1560W </p>
-              <p><b>Dimenzije:</b> 17.7 x 20.3 x 38.1 cm (Š x D x V)</p>
-              <p><b>Težina:</b> 3,2kg</p>
-              <p><b>Garancija:</b> 3 godine na bazu s motorom i upravljačku elektroniku, 6 mjeseci na posudu</p>
-              <button id="close">Zatvori</button>
-            </div>
-          </dialog>
-
-        </div>
-        
-       </div>   
-
-       <p class="paragraph">
-        <b>Najpovoljniji i najjednostavniji  Blendtec komercijalni blender!</b>
-       </p>
-        <ul class="znacajke-u-textu" style="margin-bottom: 2rem;">
-            <li>Snaga: 1560W</li>
-            <li>Dnevni kapacitet Blendanja: 60+ ciklusa</li>
-            <li>Jednostavno upravljanje pomoću 4 tipke: kratki, srednji, dugi ciklus i tipka pulse</li>
-            <li>3 programirana profila, svaki s 3 ciklusa : Smoothie, Coffee, Milkshake</li>
-            <li>Sučelje s tipkama, LCD display</li>
-            <li>Dimenzije: v38,1 x d20,3 x š17,7 (cm)</li>
-            <li>Težina: 3,2kg</li>
-            <li>Dolazi u kompletu s Blendtec FourSide posudom</li>
+        <p class="paragraph">
+          <b>Najpovoljniji i najjednostavniji Blendtec komercijalni blender!</b>
+        </p>
+        <ul class="znacajke-u-textu" style="margin-bottom: 2rem">
+          <li>Snaga: 1560W</li>
+          <li>Dnevni kapacitet Blendanja: 60+ ciklusa</li>
+          <li>
+            Jednostavno upravljanje pomoću 4 tipke: kratki, srednji, dugi ciklus
+            i tipka pulse
+          </li>
+          <li>
+            3 programirana profila, svaki s 3 ciklusa : Smoothie, Coffee,
+            Milkshake
+          </li>
+          <li>Sučelje s tipkama, LCD display</li>
+          <li>Dimenzije: v38,1 x d20,3 x š17,7 (cm)</li>
+          <li>Težina: 3,2kg</li>
+          <li>Dolazi u kompletu s Blendtec FourSide posudom</li>
         </ul>
 
         <p class="paragraph">
-            Jednostavan dizajn za ugostiteljske potrebe - odaberite između 3 programirana profila (smoothie, kava, milkshake) od kojih svaki ima 3 ciklusa različitog trajanja za uvijek isti, savršeni rezultat!
+          Jednostavan dizajn za ugostiteljske potrebe - odaberite između 3
+          programirana profila (smoothie, kava, milkshake) od kojih svaki ima 3
+          ciklusa različitog trajanja za uvijek isti, savršeni rezultat!
         </p>
- 
+
         <!-- video -->
         <div class="iframe-wrapper">
-            <iframe class="video" src="https://www.youtube.com/embed/5aWZ-jHnizE"></iframe>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/5aWZ-jHnizE"
+          ></iframe>
         </div>
 
         <p class="paragraph">
-            <b>PREBACIVANJE IZMEĐU PROFILA (unutar 10 sekundi od uključivanja):</b>
+          <b
+            >PREBACIVANJE IZMEĐU PROFILA (unutar 10 sekundi od uključivanja):</b
+          >
         </p>
 
         <!-- video -->
         <div class="iframe-wrapper">
-            <iframe class="video" src="https://www.youtube.com/embed/Cjd95D1rH3s"></iframe>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/Cjd95D1rH3s"
+          ></iframe>
         </div>
+      </section>
+    </div>
 
-     </section>
- 
-</div>
-
-<!----- kako naručiti ----->
+    <!----- kako naručiti ----->
     <kako-naruciti></kako-naruciti>
 
-<!----- footer ----->
+    <!----- footer ----->
     <footer-block></footer-block>
 
-         <script defer src="../../blocks/menu.js"></script>
-         <script defer src="../../blocks/kako-naruciti.js"></script>
-         <script defer src="../../blocks/footer.js"></script>
-         <script defer src="../../app.js"></script>
-         <script defer src="../../modal.js"></script>
-         
-</body>
+    <script defer src="../../blocks/menu.js"></script>
+    <script defer src="../../blocks/kako-naruciti.js"></script>
+    <script defer src="../../blocks/footer.js"></script>
+    <script defer src="../../app.js"></script>
+    <script defer src="../../modal.js"></script>
+  </body>
 </html>
